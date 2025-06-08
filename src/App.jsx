@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/resonatecraft">
       <div className="min-h-screen bg-background text-foreground">
         <Header />
         <main>
