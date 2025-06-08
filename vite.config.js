@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/resonatecraft/',
+  base: 'https://neybarao.github.io/resonatecraft/',
   plugins: [
     react({
       jsxRuntime: 'automatic',
