@@ -5,16 +5,11 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://neybarao.github.io/resonatecraft/',
+  base: '/resonatecraft/',
   plugins: [
     react({
       jsxRuntime: 'automatic',
       jsxImportSource: 'react',
-      babel: {
-        plugins: [
-          ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }]
-        ]
-      }
     }),
     tailwindcss()
   ],
